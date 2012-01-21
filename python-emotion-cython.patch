@@ -1,0 +1,11 @@
+--- python-emotion-0.7.3/emotion/emotion.c_emotion.pyx.orig	2010-10-01 01:03:44.000000000 +0200
++++ python-emotion-0.7.3/emotion/emotion.c_emotion.pyx	2012-01-21 20:29:17.554886922 +0100
+@@ -50,7 +50,7 @@
+ 
+ 
+ cdef class Emotion(evas.c_evas.Object):
+-    def __new__(self, *a, **ka):
++    def __cinit__(self, *a, **ka):
+         self._emotion_callbacks = {}
+ 
+     def __init__(self, c_evas.Canvas canvas not None, **kargs):
