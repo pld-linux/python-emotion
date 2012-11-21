@@ -2,7 +2,7 @@ Summary:	Python bindings for Emotion library
 Summary(pl.UTF-8):	Wiązania Pythona do biblioteki Emotion
 Name:		python-emotion
 Version:	1.7.0
-Release:	2
+Release:	3
 License:	LGPL v2.1+
 Group:		Development/Languages/Python
 Source0:	http://download.enlightenment.org/releases/BINDINGS/python/%{name}-%{version}.tar.bz2
