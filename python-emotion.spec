@@ -1,3 +1,4 @@
+# NOTE: for EFL >= 1.8.0 version see python-efl.spec
 Summary:	Python bindings for Emotion library
 Summary(pl.UTF-8):	Wiązania Pythona do biblioteki Emotion
 Name:		python-emotion
